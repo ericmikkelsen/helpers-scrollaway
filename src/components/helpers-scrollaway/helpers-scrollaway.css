@@ -1,0 +1,10 @@
+div {
+    display: block;
+    transition: transform .2s;
+}
+.show {
+    transform: translate3d(0, -.001%, 0); 
+}
+.hide {
+    transform: translate3d(0, -101%, 0);
+}
